@@ -28,6 +28,10 @@ final class Sale {
         return paid;
     }
 
+    void clear() {
+        products.clear();
+    }
+
     List<Product> getProducts() {
         if (paid) {
             List<Product> productsToReturn = products;

@@ -22,6 +22,11 @@ public final class Pos {
         }
     }
 
+    public void clear() {
+        sale.clear();
+    }
+
+
     public void insertCoin(Coin coin) {
         coins.add(coin);
     }
